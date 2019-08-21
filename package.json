@@ -1,0 +1,19 @@
+{
+  "name": "odata-server",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "cross-env PORT=5001 node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "mssql": "^4.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.0",
+    "@types/mssql": "^4.0.10",
+    "cross-env": "^5.2.0"
+  }
+}
